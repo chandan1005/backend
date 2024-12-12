@@ -2764,3 +2764,50 @@ NameError: name 'get_current_user' is not defined
 2024-12-12 16:20:12,308 - 127.0.0.1 - - [12/Dec/2024 16:20:12] "GET /socket.io/?EIO=4&transport=websocket&sid=dutD342np9qRAN8cAAAV HTTP/1.1" 200 -
 2024-12-12 16:20:12,320 - 127.0.0.1 - - [12/Dec/2024 16:20:12] "GET /socket.io/?EIO=4&transport=websocket&sid=mHwXOZBu_RIGEXueAAAW HTTP/1.1" 200 -
 2024-12-12 16:20:12,329 - 127.0.0.1 - - [12/Dec/2024 16:20:12] "GET /socket.io/?EIO=4&transport=websocket&sid=ynE7HCuJmB8QYHDsAAAX HTTP/1.1" 200 -
+2024-12-12 17:51:35,982 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-12 17:51:35,983 - [33mPress CTRL+C to quit[0m
+2024-12-12 17:51:39,184 - 127.0.0.1 - - [12/Dec/2024 17:51:39] "OPTIONS /socket.io/?EIO=4&transport=polling&t=agkvmdkj HTTP/1.1" 200 -
+2024-12-12 17:51:39,433 - 127.0.0.1 - - [12/Dec/2024 17:51:39] "GET /socket.io/?EIO=4&transport=polling&t=agkvmdkj HTTP/1.1" 200 -
+2024-12-12 17:51:39,494 - 127.0.0.1 - - [12/Dec/2024 17:51:39] "OPTIONS /socket.io/?EIO=4&transport=polling&t=aglbjz09&sid=UhJM0bqw7da-1_7NAAAA HTTP/1.1" 200 -
+2024-12-12 17:51:39,495 - 127.0.0.1 - - [12/Dec/2024 17:51:39] "OPTIONS /socket.io/?EIO=4&transport=polling&t=aglbln9y&sid=UhJM0bqw7da-1_7NAAAA HTTP/1.1" 200 -
+2024-12-12 17:51:39,758 - 127.0.0.1 - - [12/Dec/2024 17:51:39] "POST /socket.io/?EIO=4&transport=polling&t=aglbjz09&sid=UhJM0bqw7da-1_7NAAAA HTTP/1.1" 200 -
+2024-12-12 17:51:39,763 - 127.0.0.1 - - [12/Dec/2024 17:51:39] "GET /socket.io/?EIO=4&transport=polling&t=aglbln9y&sid=UhJM0bqw7da-1_7NAAAA HTTP/1.1" 200 -
+2024-12-12 17:51:46,173 - 127.0.0.1 - - [12/Dec/2024 17:51:46] "OPTIONS /start_capture HTTP/1.1" 200 -
+2024-12-12 17:51:51,438 - 127.0.0.1 - - [12/Dec/2024 17:51:51] "OPTIONS /network_attacks HTTP/1.1" 200 -
+2024-12-12 17:51:51,499 - 127.0.0.1 - - [12/Dec/2024 17:51:51] "POST /start_capture HTTP/1.1" 200 -
+2024-12-12 17:51:51,745 - 127.0.0.1 - - [12/Dec/2024 17:51:51] "GET /network_attacks HTTP/1.1" 200 -
+2024-12-12 17:51:53,690 - 127.0.0.1 - - [12/Dec/2024 17:51:53] "OPTIONS /analyze_attacks?type=mitm_attacks HTTP/1.1" 200 -
+2024-12-12 17:51:53,954 - 127.0.0.1 - - [12/Dec/2024 17:51:53] "GET /analyze_attacks?type=mitm_attacks HTTP/1.1" 200 -
+2024-12-12 17:51:54,940 - 127.0.0.1 - - [12/Dec/2024 17:51:54] "OPTIONS /logs HTTP/1.1" 200 -
+2024-12-12 17:51:54,978 - 127.0.0.1 - - [12/Dec/2024 17:51:54] "GET /logs HTTP/1.1" 200 -
+2024-12-12 17:51:56,521 - 127.0.0.1 - - [12/Dec/2024 17:51:56] "OPTIONS /network_attacks HTTP/1.1" 200 -
+2024-12-12 17:51:56,784 - 127.0.0.1 - - [12/Dec/2024 17:51:56] "GET /network_attacks HTTP/1.1" 200 -
+2024-12-12 17:52:00,455 - 127.0.0.1 - - [12/Dec/2024 17:52:00] "GET /network_attacks HTTP/1.1" 200 -
+2024-12-12 17:52:01,251 - 127.0.0.1 - - [12/Dec/2024 17:52:01] "OPTIONS /analyze_attacks?type=mitm_attacks HTTP/1.1" 200 -
+2024-12-12 17:52:01,561 - 127.0.0.1 - - [12/Dec/2024 17:52:01] "GET /analyze_attacks?type=mitm_attacks HTTP/1.1" 200 -
+2024-12-12 17:52:02,109 - 127.0.0.1 - - [12/Dec/2024 17:52:02] "OPTIONS /logs HTTP/1.1" 200 -
+2024-12-12 17:52:02,433 - 127.0.0.1 - - [12/Dec/2024 17:52:02] "GET /logs HTTP/1.1" 200 -
+2024-12-12 17:52:07,171 - 127.0.0.1 - - [12/Dec/2024 17:52:07] "OPTIONS /network_attacks HTTP/1.1" 200 -
+2024-12-12 17:52:07,433 - 127.0.0.1 - - [12/Dec/2024 17:52:07] "GET /network_attacks HTTP/1.1" 200 -
+2024-12-12 17:52:15,297 - 127.0.0.1 - - [12/Dec/2024 17:52:15] "OPTIONS /stop_capture HTTP/1.1" 200 -
+2024-12-12 17:52:15,560 - 127.0.0.1 - - [12/Dec/2024 17:52:15] "POST /stop_capture HTTP/1.1" 200 -
+2024-12-12 17:53:39,213 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-12 17:53:39,213 - [33mPress CTRL+C to quit[0m
+2024-12-12 17:54:19,780 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-12 17:54:19,780 - [33mPress CTRL+C to quit[0m
+2024-12-12 17:58:40,516 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-12 17:58:40,516 - [33mPress CTRL+C to quit[0m
+2024-12-12 17:59:57,487 - 127.0.0.1 - - [12/Dec/2024 17:59:57] "OPTIONS /socket.io/?EIO=4&transport=polling&t=ar9dk8xx HTTP/1.1" 200 -
+2024-12-12 17:59:57,754 - 127.0.0.1 - - [12/Dec/2024 17:59:57] "GET /socket.io/?EIO=4&transport=polling&t=ar9dk8xx HTTP/1.1" 200 -
+2024-12-12 17:59:58,111 - 127.0.0.1 - - [12/Dec/2024 17:59:58] "OPTIONS /socket.io/?EIO=4&transport=polling&t=ara3gkr3&sid=Vj70GZIeNf2swPPDAAAA HTTP/1.1" 200 -
+2024-12-12 17:59:58,425 - 127.0.0.1 - - [12/Dec/2024 17:59:58] "POST /socket.io/?EIO=4&transport=polling&t=ara3gkr3&sid=Vj70GZIeNf2swPPDAAAA HTTP/1.1" 200 -
+2024-12-12 17:59:58,425 - 127.0.0.1 - - [12/Dec/2024 17:59:58] "OPTIONS /socket.io/?EIO=4&transport=polling&t=ara3ioiv&sid=Vj70GZIeNf2swPPDAAAA HTTP/1.1" 200 -
+2024-12-12 17:59:58,746 - 127.0.0.1 - - [12/Dec/2024 17:59:58] "GET /socket.io/?EIO=4&transport=polling&t=ara3ioiv&sid=Vj70GZIeNf2swPPDAAAA HTTP/1.1" 200 -
+2024-12-12 17:59:59,217 - 127.0.0.1 - - [12/Dec/2024 17:59:59] "OPTIONS /start_capture HTTP/1.1" 200 -
+2024-12-12 18:00:04,211 - 127.0.0.1 - - [12/Dec/2024 18:00:04] "OPTIONS /stop_capture HTTP/1.1" 200 -
+2024-12-12 18:00:04,518 - 127.0.0.1 - - [12/Dec/2024 18:00:04] "POST /stop_capture HTTP/1.1" 200 -
+2024-12-12 18:00:07,748 - 127.0.0.1 - - [12/Dec/2024 18:00:07] "GET /socket.io/?EIO=4&transport=websocket&sid=Vj70GZIeNf2swPPDAAAA HTTP/1.1" 200 -
